@@ -133,7 +133,7 @@ alias aclean='sudo apt autoclean -y'
 alias rem='sudo apt remove -y'
 alias ins='sudo apt install -y'
 alias df='sudo df -h'
-aliaz bashrcu='curl -o .bashrc https://raw.githubusercontent.com/hisheeraz/bashrc/main/mybashrc'
+alias bashrcu='curl -o .bashrc https://raw.githubusercontent.com/hisheeraz/bashrc/main/mybashrc'
 
 # FUNCTION TO FIND STRING IN FILES
 fstr() {
