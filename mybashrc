@@ -132,6 +132,7 @@ alias aremove='sudo apt autoremove -y'
 alias aclean='sudo apt autoclean -y'
 alias rem='sudo apt remove -y'
 alias ins='sudo apt install -y'
+alias df='sudo df -h'
 
 # FUNCTION TO FIND STRING IN FILES
 fstr() {
