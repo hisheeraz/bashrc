@@ -1,4 +1,4 @@
-################################################################################################
+d################################################################################################
 #####                    <<<<    <<<<    LINUX LEARNER               >>>>    >>>>          #####
 #####                    <<<<    <<<<    MCS3SS2                     >>>>    >>>>          #####
 #####                    <<<<    <<<<    MY BASH RC STANDARD         >>>>    >>>>          #####
@@ -107,33 +107,17 @@ fi
 # PERSONALISED ALIASES
 #alias ll='ls -alF'
 #alias la='ls -A'
-alias bashrc='nano .bashrc'     # OPEN BASHRC WITH MICRO FOR EDITING
-alias bs='source .bashrc'               # RELOAD BASH CONFIGURATION
-alias ..="cd .."                                # GO BACK 1 DIRECTORY
-alias ...='../../'                              # GO BACK 2 DIRECTORIES
-alias ....='../../../'                  # GO BACK 3 DIRECTORIES
+
 alias home='cd ~'                               # GO TO HOME DIRECTORY
 alias root='cd /'                               # GO TO / ROOT DIRECTORY
-alias ll='ls -lh'
-alias la='ls -alh'
-alias lcf='ls -CF'
-alias ltr='ls -alhptr'                     # SORT BY DATE
-alias labc='ls -lhap'                    # SORT BY NAME ASCENDING
-alias cp='cp -vi'
-alias mv='mv -vi'
-alias rm='rm -i'
-alias cpv='rsync -avh --info=progress2' # VERBEROSE COPYING
-alias c='clear'
-alias n='nano'
-alias sn='sudo nano'
-alias count='ls * | wc -l'
-alias update='sudo apt-get update -y && sudo apt-get upgrade -y'
-alias aremove='sudo apt autoremove -y'
-alias aclean='sudo apt autoclean -y'
-alias rem='sudo apt remove -y'
-alias ins='sudo apt install -y'
+
+alias updateall='sudo apt-get update -y && sudo apt-get upgrade -y'
+alias autoremove='sudo apt autoremove -y'
+alias autoclean='sudo apt autoclean -y'
+alias remove='sudo apt remove -y'
+alias install='sudo apt install -y'
 alias df='sudo df -h'
-alias bashrcu='curl -o .bashrc https://raw.githubusercontent.com/hisheeraz/bashrc/main/mybashrc'
+alias dlbashrc='curl -o .bashrc https://raw.githubusercontent.com/hisheeraz/bashrc/main/mybashrc'
 
 # FUNCTION TO FIND STRING IN FILES
 fstr() {
